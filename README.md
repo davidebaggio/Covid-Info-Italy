@@ -3,6 +3,7 @@ In order to launch this application you have to have maven installed because it 
 Once you are in this directory just run:
 
 $mvn package
+
 $mvn exec:java -D exec.mainClass=com.flights.app.App
 
 It should compile and run straight away and generate also a txt file with the same output printed in the cmd prompt.
